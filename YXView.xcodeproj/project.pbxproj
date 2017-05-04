@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F69CD5D31EB9E924002E0292 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F69CD5D21EB9E924002E0292 /* main.m */; };
+		F69CD5D61EB9E924002E0292 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69CD5D51EB9E924002E0292 /* AppDelegate.m */; };
+		F69CD5D91EB9E924002E0292 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69CD5D81EB9E924002E0292 /* ViewController.m */; };
+		F69CD5DC1EB9E924002E0292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69CD5DA1EB9E924002E0292 /* Main.storyboard */; };
+		F69CD5DE1EB9E924002E0292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69CD5DD1EB9E924002E0292 /* Assets.xcassets */; };
+		F69CD5E11EB9E924002E0292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69CD5DF1EB9E924002E0292 /* LaunchScreen.storyboard */; };
+		F69CD5EC1EB9E924002E0292 /* YXViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69CD5EB1EB9E924002E0292 /* YXViewTests.m */; };
+		F69CD5F71EB9E924002E0292 /* YXViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69CD5F61EB9E924002E0292 /* YXViewUITests.m */; };
+		F69CD6081EB9EB6F002E0292 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F69CD6071EB9EB6F002E0292 /* 1.png */; };
+		F69CD60B1EB9F491002E0292 /* TexCoords.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F69CD6091EB9F491002E0292 /* TexCoords.fsh */; };
+		F69CD60C1EB9F491002E0292 /* TexCoords.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F69CD60A1EB9F491002E0292 /* TexCoords.vsh */; };
+		F69CD6191EB9F594002E0292 /* DefaultFrag.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F69CD60E1EB9F594002E0292 /* DefaultFrag.fsh */; };
+		F69CD61A1EB9F594002E0292 /* DefaultVertex.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F69CD6101EB9F594002E0292 /* DefaultVertex.vsh */; };
+		F69CD61B1EB9F594002E0292 /* YXAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F69CD6121EB9F594002E0292 /* YXAttribute.m */; };
+		F69CD61C1EB9F594002E0292 /* YXShaderAnalyser.m in Sources */ = {isa = PBXBuildFile; fileRef = F69CD6141EB9F594002E0292 /* YXShaderAnalyser.m */; };
+		F69CD61D1EB9F594002E0292 /* YXShaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F69CD6161EB9F594002E0292 /* YXShaderManager.m */; };
+		F69CD61E1EB9F594002E0292 /* YXUniform.m in Sources */ = {isa = PBXBuildFile; fileRef = F69CD6181EB9F594002E0292 /* YXUniform.m */; };
+		F69CD6211EB9FD03002E0292 /* YXView.m in Sources */ = {isa = PBXBuildFile; fileRef = F69CD6201EB9FD03002E0292 /* YXView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F69CD5E81EB9E924002E0292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69CD5C61EB9E924002E0292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69CD5CD1EB9E924002E0292;
+			remoteInfo = YXView;
+		};
+		F69CD5F31EB9E924002E0292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F69CD5C61EB9E924002E0292 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F69CD5CD1EB9E924002E0292;
+			remoteInfo = YXView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F69CD5CE1EB9E924002E0292 /* YXView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69CD5D21EB9E924002E0292 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F69CD5D41EB9E924002E0292 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F69CD5D51EB9E924002E0292 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F69CD5D71EB9E924002E0292 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F69CD5D81EB9E924002E0292 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F69CD5DB1EB9E924002E0292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F69CD5DD1EB9E924002E0292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F69CD5E01EB9E924002E0292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F69CD5E21EB9E924002E0292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69CD5E71EB9E924002E0292 /* YXViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69CD5EB1EB9E924002E0292 /* YXViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXViewTests.m; sourceTree = "<group>"; };
+		F69CD5ED1EB9E924002E0292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69CD5F21EB9E924002E0292 /* YXViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69CD5F61EB9E924002E0292 /* YXViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXViewUITests.m; sourceTree = "<group>"; };
+		F69CD5F81EB9E924002E0292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69CD6071EB9EB6F002E0292 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		F69CD6091EB9F491002E0292 /* TexCoords.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = TexCoords.fsh; sourceTree = "<group>"; };
+		F69CD60A1EB9F491002E0292 /* TexCoords.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = TexCoords.vsh; sourceTree = "<group>"; };
+		F69CD60E1EB9F594002E0292 /* DefaultFrag.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DefaultFrag.fsh; sourceTree = "<group>"; };
+		F69CD60F1EB9F594002E0292 /* DefaultVariableName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultVariableName.h; sourceTree = "<group>"; };
+		F69CD6101EB9F594002E0292 /* DefaultVertex.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DefaultVertex.vsh; sourceTree = "<group>"; };
+		F69CD6111EB9F594002E0292 /* YXAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXAttribute.h; sourceTree = "<group>"; };
+		F69CD6121EB9F594002E0292 /* YXAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXAttribute.m; sourceTree = "<group>"; };
+		F69CD6131EB9F594002E0292 /* YXShaderAnalyser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXShaderAnalyser.h; sourceTree = "<group>"; };
+		F69CD6141EB9F594002E0292 /* YXShaderAnalyser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXShaderAnalyser.m; sourceTree = "<group>"; };
+		F69CD6151EB9F594002E0292 /* YXShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXShaderManager.h; sourceTree = "<group>"; };
+		F69CD6161EB9F594002E0292 /* YXShaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXShaderManager.m; sourceTree = "<group>"; };
+		F69CD6171EB9F594002E0292 /* YXUniform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXUniform.h; sourceTree = "<group>"; };
+		F69CD6181EB9F594002E0292 /* YXUniform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXUniform.m; sourceTree = "<group>"; };
+		F69CD61F1EB9FD03002E0292 /* YXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXView.h; sourceTree = "<group>"; };
+		F69CD6201EB9FD03002E0292 /* YXView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F69CD5CB1EB9E924002E0292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69CD5E41EB9E924002E0292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69CD5EF1EB9E924002E0292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F69CD5C51EB9E924002E0292 = {
+			isa = PBXGroup;
+			children = (
+				F69CD5D01EB9E924002E0292 /* YXView */,
+				F69CD5EA1EB9E924002E0292 /* YXViewTests */,
+				F69CD5F51EB9E924002E0292 /* YXViewUITests */,
+				F69CD5CF1EB9E924002E0292 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F69CD5CF1EB9E924002E0292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F69CD5CE1EB9E924002E0292 /* YXView.app */,
+				F69CD5E71EB9E924002E0292 /* YXViewTests.xctest */,
+				F69CD5F21EB9E924002E0292 /* YXViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F69CD5D01EB9E924002E0292 /* YXView */ = {
+			isa = PBXGroup;
+			children = (
+				F69CD61F1EB9FD03002E0292 /* YXView.h */,
+				F69CD6201EB9FD03002E0292 /* YXView.m */,
+				F69CD60D1EB9F594002E0292 /* ShaderManager */,
+				F69CD6091EB9F491002E0292 /* TexCoords.fsh */,
+				F69CD60A1EB9F491002E0292 /* TexCoords.vsh */,
+				F69CD6071EB9EB6F002E0292 /* 1.png */,
+				F69CD5D41EB9E924002E0292 /* AppDelegate.h */,
+				F69CD5D51EB9E924002E0292 /* AppDelegate.m */,
+				F69CD5D71EB9E924002E0292 /* ViewController.h */,
+				F69CD5D81EB9E924002E0292 /* ViewController.m */,
+				F69CD5DA1EB9E924002E0292 /* Main.storyboard */,
+				F69CD5DD1EB9E924002E0292 /* Assets.xcassets */,
+				F69CD5DF1EB9E924002E0292 /* LaunchScreen.storyboard */,
+				F69CD5E21EB9E924002E0292 /* Info.plist */,
+				F69CD5D11EB9E924002E0292 /* Supporting Files */,
+			);
+			path = YXView;
+			sourceTree = "<group>";
+		};
+		F69CD5D11EB9E924002E0292 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F69CD5D21EB9E924002E0292 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F69CD5EA1EB9E924002E0292 /* YXViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F69CD5EB1EB9E924002E0292 /* YXViewTests.m */,
+				F69CD5ED1EB9E924002E0292 /* Info.plist */,
+			);
+			path = YXViewTests;
+			sourceTree = "<group>";
+		};
+		F69CD5F51EB9E924002E0292 /* YXViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F69CD5F61EB9E924002E0292 /* YXViewUITests.m */,
+				F69CD5F81EB9E924002E0292 /* Info.plist */,
+			);
+			path = YXViewUITests;
+			sourceTree = "<group>";
+		};
+		F69CD60D1EB9F594002E0292 /* ShaderManager */ = {
+			isa = PBXGroup;
+			children = (
+				F69CD60E1EB9F594002E0292 /* DefaultFrag.fsh */,
+				F69CD60F1EB9F594002E0292 /* DefaultVariableName.h */,
+				F69CD6101EB9F594002E0292 /* DefaultVertex.vsh */,
+				F69CD6111EB9F594002E0292 /* YXAttribute.h */,
+				F69CD6121EB9F594002E0292 /* YXAttribute.m */,
+				F69CD6131EB9F594002E0292 /* YXShaderAnalyser.h */,
+				F69CD6141EB9F594002E0292 /* YXShaderAnalyser.m */,
+				F69CD6151EB9F594002E0292 /* YXShaderManager.h */,
+				F69CD6161EB9F594002E0292 /* YXShaderManager.m */,
+				F69CD6171EB9F594002E0292 /* YXUniform.h */,
+				F69CD6181EB9F594002E0292 /* YXUniform.m */,
+			);
+			path = ShaderManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F69CD5CD1EB9E924002E0292 /* YXView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69CD5FB1EB9E924002E0292 /* Build configuration list for PBXNativeTarget "YXView" */;
+			buildPhases = (
+				F69CD5CA1EB9E924002E0292 /* Sources */,
+				F69CD5CB1EB9E924002E0292 /* Frameworks */,
+				F69CD5CC1EB9E924002E0292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXView;
+			productName = YXView;
+			productReference = F69CD5CE1EB9E924002E0292 /* YXView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F69CD5E61EB9E924002E0292 /* YXViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69CD5FE1EB9E924002E0292 /* Build configuration list for PBXNativeTarget "YXViewTests" */;
+			buildPhases = (
+				F69CD5E31EB9E924002E0292 /* Sources */,
+				F69CD5E41EB9E924002E0292 /* Frameworks */,
+				F69CD5E51EB9E924002E0292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69CD5E91EB9E924002E0292 /* PBXTargetDependency */,
+			);
+			name = YXViewTests;
+			productName = YXViewTests;
+			productReference = F69CD5E71EB9E924002E0292 /* YXViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F69CD5F11EB9E924002E0292 /* YXViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69CD6011EB9E924002E0292 /* Build configuration list for PBXNativeTarget "YXViewUITests" */;
+			buildPhases = (
+				F69CD5EE1EB9E924002E0292 /* Sources */,
+				F69CD5EF1EB9E924002E0292 /* Frameworks */,
+				F69CD5F01EB9E924002E0292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F69CD5F41EB9E924002E0292 /* PBXTargetDependency */,
+			);
+			name = YXViewUITests;
+			productName = YXViewUITests;
+			productReference = F69CD5F21EB9E924002E0292 /* YXViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69CD5C61EB9E924002E0292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = xyxorigation;
+				TargetAttributes = {
+					F69CD5CD1EB9E924002E0292 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M72V2PCK7H;
+						ProvisioningStyle = Automatic;
+					};
+					F69CD5E61EB9E924002E0292 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M72V2PCK7H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F69CD5CD1EB9E924002E0292;
+					};
+					F69CD5F11EB9E924002E0292 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M72V2PCK7H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F69CD5CD1EB9E924002E0292;
+					};
+				};
+			};
+			buildConfigurationList = F69CD5C91EB9E924002E0292 /* Build configuration list for PBXProject "YXView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F69CD5C51EB9E924002E0292;
+			productRefGroup = F69CD5CF1EB9E924002E0292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F69CD5CD1EB9E924002E0292 /* YXView */,
+				F69CD5E61EB9E924002E0292 /* YXViewTests */,
+				F69CD5F11EB9E924002E0292 /* YXViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F69CD5CC1EB9E924002E0292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69CD5E11EB9E924002E0292 /* LaunchScreen.storyboard in Resources */,
+				F69CD6081EB9EB6F002E0292 /* 1.png in Resources */,
+				F69CD60B1EB9F491002E0292 /* TexCoords.fsh in Resources */,
+				F69CD61A1EB9F594002E0292 /* DefaultVertex.vsh in Resources */,
+				F69CD6191EB9F594002E0292 /* DefaultFrag.fsh in Resources */,
+				F69CD5DE1EB9E924002E0292 /* Assets.xcassets in Resources */,
+				F69CD5DC1EB9E924002E0292 /* Main.storyboard in Resources */,
+				F69CD60C1EB9F491002E0292 /* TexCoords.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69CD5E51EB9E924002E0292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69CD5F01EB9E924002E0292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69CD5CA1EB9E924002E0292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69CD61D1EB9F594002E0292 /* YXShaderManager.m in Sources */,
+				F69CD61C1EB9F594002E0292 /* YXShaderAnalyser.m in Sources */,
+				F69CD5D91EB9E924002E0292 /* ViewController.m in Sources */,
+				F69CD61B1EB9F594002E0292 /* YXAttribute.m in Sources */,
+				F69CD5D61EB9E924002E0292 /* AppDelegate.m in Sources */,
+				F69CD5D31EB9E924002E0292 /* main.m in Sources */,
+				F69CD61E1EB9F594002E0292 /* YXUniform.m in Sources */,
+				F69CD6211EB9FD03002E0292 /* YXView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69CD5E31EB9E924002E0292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69CD5EC1EB9E924002E0292 /* YXViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69CD5EE1EB9E924002E0292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69CD5F71EB9E924002E0292 /* YXViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F69CD5E91EB9E924002E0292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69CD5CD1EB9E924002E0292 /* YXView */;
+			targetProxy = F69CD5E81EB9E924002E0292 /* PBXContainerItemProxy */;
+		};
+		F69CD5F41EB9E924002E0292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F69CD5CD1EB9E924002E0292 /* YXView */;
+			targetProxy = F69CD5F31EB9E924002E0292 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F69CD5DA1EB9E924002E0292 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69CD5DB1EB9E924002E0292 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F69CD5DF1EB9E924002E0292 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69CD5E01EB9E924002E0292 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F69CD5F91EB9E924002E0292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F69CD5FA1EB9E924002E0292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69CD5FC1EB9E924002E0292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = YXView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.YXView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F69CD5FD1EB9E924002E0292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = YXView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.YXView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F69CD5FF1EB9E924002E0292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = YXViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.YXViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXView.app/YXView";
+			};
+			name = Debug;
+		};
+		F69CD6001EB9E924002E0292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = YXViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.YXViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXView.app/YXView";
+			};
+			name = Release;
+		};
+		F69CD6021EB9E924002E0292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = YXViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.YXViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXView;
+			};
+			name = Debug;
+		};
+		F69CD6031EB9E924002E0292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = YXViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.YXViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69CD5C91EB9E924002E0292 /* Build configuration list for PBXProject "YXView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69CD5F91EB9E924002E0292 /* Debug */,
+				F69CD5FA1EB9E924002E0292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69CD5FB1EB9E924002E0292 /* Build configuration list for PBXNativeTarget "YXView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69CD5FC1EB9E924002E0292 /* Debug */,
+				F69CD5FD1EB9E924002E0292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F69CD5FE1EB9E924002E0292 /* Build configuration list for PBXNativeTarget "YXViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69CD5FF1EB9E924002E0292 /* Debug */,
+				F69CD6001EB9E924002E0292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F69CD6011EB9E924002E0292 /* Build configuration list for PBXNativeTarget "YXViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69CD6021EB9E924002E0292 /* Debug */,
+				F69CD6031EB9E924002E0292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F69CD5C61EB9E924002E0292 /* Project object */;
+}
